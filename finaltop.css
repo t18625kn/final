@@ -1,0 +1,94 @@
+.btn {
+  position:absolute;
+  left:45%;
+  top:420px;
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    background-image: -webkit-linear-gradient(45deg, #681108 30%, #c16d19 100%);
+    background-image: linear-gradient(45deg, #681108 30%, #c16d19 100%);
+    transition: .4s;
+}
+
+.btn:hover{
+  -webkit-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  transform: rotate(10deg);
+}
+
+body {
+  background: url(bg-01.jpg) center center / cover no-repeat fixed;
+}
+
+.title {
+  font-family: 'Snell Roundhand','Segoe UI','klee','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  padding-top: calc(100vh / 4 - 60px);
+  text-shadow: 0 0 10px #333;
+}
+
+
+.btn-animation-02 {
+  position:absolute;
+  left:42%;
+  top:300px;
+  display: inline-block;
+  width: 160px;
+  text-align: center;
+  background-color: #008080;
+  border: 2px solid #008080;
+  font-size: 12px;
+  color: #008080;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 14px;
+  border-radius: 4px;
+  position: relative;
+}
+
+.btn-animation-02 span {
+  position: relative;
+  z-index: 1;
+}
+
+.btn-animation-02::before,
+.btn-animation-02::after {
+  content: "";
+  display: block;
+  background-color: #F0FFFF;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  transition: .2s;
+}
+.btn-animation-02::before {
+  left: 0;
+}
+.btn-animation-02::after {
+  right: 0;
+}
+
+.btn-animation-02:hover:before,
+.btn-animation-02:hover:after {
+  width: 0;
+  background-color: #F0FFFF;
+}
+
+.btn-animation-02:hover {
+  color: #FFF;
+}
+
+.mail {
+  position:absolute;
+  left:45%;
+  top:725px;
