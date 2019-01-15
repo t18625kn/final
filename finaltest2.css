@@ -1,0 +1,42 @@
+.title {
+  font-family: 'Snell Roundhand','Segoe UI','klee','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  padding-top: calc(100vh / 10 - 60px);
+  text-shadow: 0 0 10px #333;
+}
+
+body {
+  background: url(bg-01.jpg) center center / cover no-repeat fixed;
+}
+
+.example1 {
+  font-family: 'Snell Roundhand','Segoe UI','klee','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+  color: black;
+  text-align: center;
+  position:absolute;
+  left:25%;
+  top:220px;
+  text-shadow: 0 0 10px #333;
+  padding: 0.1em 10em;
+  margin: 3em 0;
+  color: #2c2c2f;
+  background: #FFFFFF;/*背景色*/
+  border-radius: 10px;
+}
+.example1 p {
+    margin: 0;
+    padding: 0;
+}
+.a{
+  font-size: 35px;
+  text-shadow: 0 0 10px #333;
+  text-decoration: none;
+  color: black;
+}
+.mail {
+  position:absolute;
+  left:45%;
+  top:725px;
+}
